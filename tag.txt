@@ -1,0 +1,4 @@
+<nomeDaTag>Meu Título</nomeDaTag> este é o conteúdo que eu quero dar um significado
+
+a Tag de abertura, mais o conteúdo mais a tag de fechamento dão o nome de elemento HTML
+
