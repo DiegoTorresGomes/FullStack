@@ -2,3 +2,5 @@
 
 a Tag de abertura, mais o conteúdo mais a tag de fechamento dão o nome de elemento HTML
 
+sempre que eu quiser exportar meu arquivo, colocar em um pen drive, mandar por e-mail, fazer qualquer coisa que vá modificar o meu arquivo, modificar a posição dele,
+eu preciso zipar ele, compactando. sempre o arquvio do projeto principal
