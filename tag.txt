@@ -4,3 +4,10 @@ a Tag de abertura, mais o conteúdo mais a tag de fechamento dão o nome de elem
 
 sempre que eu quiser exportar meu arquivo, colocar em um pen drive, mandar por e-mail, fazer qualquer coisa que vá modificar o meu arquivo, modificar a posição dele,
 eu preciso zipar ele, compactando. sempre o arquvio do projeto principal
+
+
+css in line - <p style="color: red;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+No código acima temos um exemplo do CSS in Line, que significa que ele é estilizado na linha do código
+Mudando assim o estilo da página.
+
