@@ -1,0 +1,15 @@
+p{
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 30px;
+    text-decoration: line-through underline overline;
+    letter-spacing: 2.2px; /* espacamento entre as letras, pode receber valores negativos
+    que vai montar uma letra em cima da outra */
+    line-height: 25px;/* altura das linhas */
+    word-spacing: 5px;/* a distancia entre uma palavra e outra */
+    text-shadow: 1px 2px #bbb;/* permite criar uma sombra para texto e recebe 3 valores o primeiro é qual será o deslocamento para direita,
+    o segundo qual será o deslocamento para baixo e o terceiro a cor da sombra */
+
+}
+

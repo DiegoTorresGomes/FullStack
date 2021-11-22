@@ -89,5 +89,15 @@ border-left-color: (nome da cor qualue eu quiser) - muda a cor ca borda só da e
 
 border-color: red green blue yellow = este comando vai me dar bordas coloridas, sempre começando pela de cima
 
+o outline ele funciona como se fosse uma borda, mas ele não altera o box model, ou seja, ele não vai ser um elemento que vai ser ignorado pelo box model.
+
+box-sizing: border-box = Isso quer dizer que o tamanho do nosso elemento vai respeitar a borda, ou seja, a borda vai passar a ser o referencial.  
+
+Para alinhamento de textos, podemos usar o text-align.
+text-transform = consigo colocar todas as letras em maiuscula, minuscula ou com a primeira em maiuscula
+text-indent = serve para colocarmos uma identação como por exemplo distancia de um paragrafo da borda da página
+
+
+
 
 
