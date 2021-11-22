@@ -90,3 +90,21 @@ html{
     width: 1em;
     background: blue;
 }
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+#containeres{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+#conteudo{
+    
+}
+
+.borda{
+  border: 5px dashed blue
+}

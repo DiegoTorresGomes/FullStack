@@ -73,5 +73,21 @@ a unidade de medida VMAX é o contrário do VMIN.
 PORCENTO -  Quando utilizamos o porcento em algum elemento para definir o tamanho dele, esse tamanho vai ser sempre referente ao tamanho do elemento pai.
 
 
+a margem distancia um elemento nas suas bordas
+se eu quiser distanciar para todos os lados eu preciso colocar margin:(aqui eu coloco o valor que eu quiser)
+padding tambem da um distanciamento, porém enquanto a margem da o distanciamento para fora, o padding da o distanciamento para dentro.
+
+ou seja, se eu tenho um texto escrito dentro de uma caixa ele vai me dar um distanciamento da borda por dentro desta caixa.
+tanto o margin quanto o padding podemos distanciar individualmente os cantos que escolhermos
+se quisermos somente para o topo, para a direita, esquerda e etc
+o estilo dotted é o estilo pontilhado
+o estilo dashed é o estilo tracejado
+o estilo solid é o estilo continuo
+o estilo none que é sem estilo - e o none é como se ele realmente nunca estivesse entrado
+o estilo hidden que tambem é sem estilo - mas é como se o estilo estivesse na tela, mas não estivesse aparecendo
+border-left-color: (nome da cor qualue eu quiser) - muda a cor ca borda só da esquerda, top = só de cima, right = só da direita, bottom  = só de baixo.
+
+border-color: red green blue yellow = este comando vai me dar bordas coloridas, sempre começando pela de cima
+
 
 
