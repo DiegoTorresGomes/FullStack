@@ -1,0 +1,26 @@
+ul {
+    list-style-type: circle; /* com o none ele vai sumir com o marcador */
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+
+    background-color: #f3e;
+}
+
+ol{
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+
+
+    background-color: #59e;
+
+}
+
+li{ /* quando criar bordas para uma lista, é comum o marcador ficar fora, é o padrão */
+    border: 1px solid;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

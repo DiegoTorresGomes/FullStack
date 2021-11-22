@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: #bc2035;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 3px solid #bc2035;
+}
+
+a:visited{ /* com este seletor ao lado da tag A eu consigo mudar o estado do link, pois depois que
+ele foi clicado ele muda de cor por padrão */
+    color: blue;
+
+}
+
+a:hover{ /* o HOVER muda quando passamos o mouse por cima do botão e conseguimos estilizar do 
+jeito que quisermos */
+    background: green;
+    color: white;
+}
+
+a:active{ /* o ATIVO muda quando clicamos */
+    background: purple;
+    color: red;
+
+}
+
+a:visited{ /*  muda quando ele foi visitado, ou seja, clicamos no link após clicado ele
+muda conforme configuramos */
+    border-color: black;
+    color: aqua;
+}

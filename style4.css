@@ -1,0 +1,9 @@
+p{
+    font-family: Times;
+    font-style: normal;
+    font-weight: 100; /* deixa a fonte em negrito, colocando a numeração entre 100 e 900 */
+    font-variant: small-caps; /* essa opção coloca tudo em maiusculo, porém mantem a diferenca da letra
+    que ficaria em maiusculo, colocando ela maior */
+    
+
+}

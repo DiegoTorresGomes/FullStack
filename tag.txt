@@ -97,7 +97,13 @@ Para alinhamento de textos, podemos usar o text-align.
 text-transform = consigo colocar todas as letras em maiuscula, minuscula ou com a primeira em maiuscula
 text-indent = serve para colocarmos uma identação como por exemplo distancia de um paragrafo da borda da página
 
+no CCS conseguimos mudar o estilo de cursos quando passamos o mouse por cima de um link
+colocando o elemento CURSOR: (AQUI SELECIONO O TIPO DE CURSOR QUE EU QUERO QUE APAREÇA)
 
+para listas nos temos varios tipos de marcadores
+em list-style-type: temos o none, upper-alpha, circle, square, dentre outros
+
+list-style-image: (URL) = Eu consigo selecionar uma imagem que eu quiser pegando na iternet ou qualquer outro lugar
 
 
 
