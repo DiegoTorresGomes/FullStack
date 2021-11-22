@@ -49,3 +49,29 @@ se estivermos falando de um comando exemplo "background", conseguimos colocar to
 
 a tag div serve para juntar varios elementos. Posso juntar paragrafos ou qualquer coisa que eu queira juntar para estilizar
 a tag div pode ser usada dentro de outra div
+
+se eu usar o text-deciration: underline - ele vai deixar o texto todo sublinhado.
+
+width: largura
+height: altura
+
+a unidade de medida de PONTO tem uma relação muito interessante com o pixel, pois se estivermos em um dispositivo, dependendo de qual a qualidade de tela dele
+um ponto pode ter vários pixels, mas se o dispositivo for de baixa qualidade, um PONTO pode representar um pixel.
+
+texto no Body o padrão é 16px
+por que a fonte do texto inside está do mesmo tamanho da fonte do container ?
+por que a div container e pai da div inside e (1em) = uma vez o tamanho da div pai.
+
+a unidade de medida EM é relativa a fontes, ao tamanho da fonte de um elemento
+a unidade de medida REM é relativa ao tamanho da fonte do elemento raiz que neste caso é do HTML
+
+a unidade de medida VW é referente a largura da nossa janela, 1vw é igual a 1% da largura da nossa janela principal, da página do chrome
+
+a unidade de medida VMIN é sempre relativa ao menor valor tanto de altura quanto de largura, se a altura estiver menor, será referente a ela.
+a unidade de medida VMAX é o contrário do VMIN.
+
+PORCENTO -  Quando utilizamos o porcento em algum elemento para definir o tamanho dele, esse tamanho vai ser sempre referente ao tamanho do elemento pai.
+
+
+
+

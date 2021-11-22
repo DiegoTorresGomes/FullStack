@@ -27,6 +27,66 @@ body{
     background-image: url(../Assets/tile.png);
     background-position: center; /* ele vai manter o fundo centralizado*/
     background-repeat: no-repeat;
+    font-size: 2rem; /* é relativa ao tamanho da fonte do elemento raiz que neste caso é do HTML que está em 20px */
 
 
+}
+
+#fotoCarro{
+    height: 50vh; /* unidade de medida VW = 1% da autura da janela */
+}
+
+
+#minha{ /* unidade de medida VW = 1% da largura da janela */
+    width: 50vw;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    height: 1mm;
+    width: 1mm;
+}
+
+#in{ /* in é a unidade de medida para polegada */
+    background-color:blue;
+    height: 1in;
+    width: 1in;
+}
+#px{ /* px é a unidade de medida para pixel */
+    background-color: purple;
+    height: 20px;
+    width: 20px;
+}
+#pt{ /* pt é a unidade de medida para ponto */
+    background-color: blue;
+    height: 20pt;
+    width: 20pt;
+}
+#pc{ /* pc = picas é a unidade de medida para web design que equivale a 12pt ou 12pontos */
+    background-color: red;
+    height: 1pc;
+    width: 1pc;
+}
+
+html{
+    font-size: 20px;
+}
+
+.container{
+    font-size: 15px;
+    width: 300px;
+    background: red;
+}
+
+.inside{
+    font-size: 2em;
+
+    width: 1em;
+    background: blue;
 }
