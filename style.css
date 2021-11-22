@@ -1,5 +1,21 @@
-#principal{
+body{
+
+
+}
+
+
+#paragrafos{
     color: red;
+    background-image: url(../Assets/fundo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.subDiv{
+    background-color: aqua;
 }
 
 #titulo{
@@ -8,4 +24,9 @@
 
 .texto_verde{
     color: green;
+    background-image: url(../Assets/tile.png);
+    background-position: center; /* ele vai manter o fundo centralizado*/
+    background-repeat: no-repeat;
+
+
 }

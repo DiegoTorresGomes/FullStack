@@ -36,3 +36,16 @@ o A o 0 é totalmente transparente e o 1 totalmente escuro
 podemos definir a estilização de cor com o hexadecimal, onde 0 é o mais baixo e o mais alto é o F.
 completando da seguinte forma: color: #ff - duas primeiras casas R / ff - duas casas depois G / 00 - mais duas casas B.
 ficando: color: #ffff00
+
+background-image: url(../Assets/fundo1.png) - eu posso baixar uma imagem e utilizar ela para servir de plano de fundo
+background-repeat: no-repeat/repeat-x/repeat-y - Eu posso selecionar para a minha imagem repetir na tela ou não... ou colocar para repetir na
+vertical ou horizontal
+background-size: cover - vai cobrir todo o fundo com a imagem
+background-attachment: fixed - o elemento da imagem fica fixa e rola junto com a imagem, como se o fundo da imagem estivesse se mexendo
+background-attachment: scroll - ele vai rolar junto com a imagem
+background-attachment: local - onde o background vai rolar junto com o elemento
+
+se estivermos falando de um comando exemplo "background", conseguimos colocar todos os elementos em uma unica linha, porém será necessário estes elementos estarem na ordem.
+
+a tag div serve para juntar varios elementos. Posso juntar paragrafos ou qualquer coisa que eu queira juntar para estilizar
+a tag div pode ser usada dentro de outra div
