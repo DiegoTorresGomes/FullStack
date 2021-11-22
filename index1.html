@@ -9,11 +9,14 @@
 
 </head>
 <body>
+
+    <a href="#minha">Minha imagem</a> <!-- quando eu uso um id para criar um link dentro da mesma página
+    eu preciso colocar a tag A e o nome do id com um # na frente, como o exemplo do código ao lado.-->
     
-    <h1>Título 1</h1>
+    <h1 id="titulo">Título 1</h1>
     <h2>Sub-Título</h2>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    <p id="principal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
@@ -27,10 +30,10 @@
         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
 
-    <p> Esse é um texto <b> em negrito</b></p>
-    <p> Esse é um texto <strong>em negrito</strong></p> <!-- o padrão hj em dia é usar strong, que faz com que os mecanismos de busca sinalizem que este texto é o mais 
+    <p class="texto_verde"> Esse é um texto <b> em negrito</b></p>
+    <p class="texto_verde"> Esse é um texto <strong>em negrito</strong></p> <!-- o padrão hj em dia é usar strong, que faz com que os mecanismos de busca sinalizem que este texto é o mais 
     importante-->
-    <p> Este é um <i>texto itálico</i></p>
+    <p class="texto_verde"> Este é um <i>texto itálico</i></p>
     <p> Este é um <em>texto itálico</em></p> <!-- significa enfase, deixando em itálico -->
     <p> Este é um <mark>texto com marcação</mark></p> <!-- texto com marcação, como se tivessemos passado um marca texto -->
     <p> Este é um <small>texto com a tag small</small></p> <!-- ele deixa o texto um pouquinho menor -->
@@ -50,7 +53,7 @@
     a buscar pelo nosso alt-->
     <a href="https://garagem360.com.br/wp-content/uploads/2021/08/ALTA20-1.jpeg">
 
-    <img src="./Assets/diego.jpg" alt="Minha imagem" width="100"> <!-- Quando colocamos o ponto no inicio da Barra significa que estamos passando o nosso endereço
+    <img id="minha" src="./Assets/diego.jpg" alt="Minha imagem" width="100"> <!-- Quando colocamos o ponto no inicio da Barra significa que estamos passando o nosso endereço
     relativo, e com isso ele vai buscar a nossa imagem onde ela estiver dentro da pasta principal do projeto -->
     </a>
 

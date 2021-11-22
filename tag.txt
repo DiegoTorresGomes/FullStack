@@ -19,3 +19,20 @@ css externo - criamos um arquivo com o nome style.css e nele colocamos todo o es
 a tag link junta o arquvo css com o arquivo html e essa teg link possui dois atributos importantes que são:
 <link herf - > o herf é o primeiro atributo importante
 o segundo atributo é o tipo de relação desse link, que neste caso é o stylesheet, ficando assim : <link herf="style.css" rel="stylesheet">
+
+
+# hasteg - no css diz para ele que é um identificador, ou seja, o ID que colocamos para identificar onde vamos modificar o 
+estilo.
+
+para identificar uma classe no css, devemos colocar um ponto no incio do nome da classe, dentro do documento css.
+
+a classe se pode umsa em mais de um elemento dentro do HTML e CSS
+O id nenhum outro elemento pode ter esse identificador.
+
+para estilo de cor em CSS podemos usar o RGB - red, green e blue / e podemos usa o RGBA - o A é da opacidade/transparencia que ficaria a minha estilização
+o RGB vai de 0 a 255 e o A vai de 0 a 1
+onde 0 é o tom mais escuro e 255 o mais claro no RGB
+o A o 0 é totalmente transparente e o 1 totalmente escuro
+podemos definir a estilização de cor com o hexadecimal, onde 0 é o mais baixo e o mais alto é o F.
+completando da seguinte forma: color: #ff - duas primeiras casas R / ff - duas casas depois G / 00 - mais duas casas B.
+ficando: color: #ffff00
