@@ -1,10 +1,10 @@
 body{
-    background-color: navajowhite;
+    background-color: black;
 }
 
-.Card{
-    width: 420;
-    height: 200;
+.card{
+    width: 400px;
+    height: 200px;
     box-sizing: border-box;
     padding: 1px 20px;
     background: url('./background.png') no-repeat;
@@ -18,21 +18,18 @@ a{
     color: black;
 }
 
-.GitHub{
-    box-sizing: border-box;
-    range: url('/Insta.png');
-    height: 40;
-    width: 40;
-    padding: 10px;
+.github{
+    list-style-image: url('./GitHub.png');
 }
 
-.LinkedIn{
-    height: 40;
-    width: 40;
+.linkedin{
+    list-style-image: url('./LinkedIn.png');
+    margin: 3px;
+
+}
+
+.whatsapp{
+    list-style-image: url('./WhatsApp.png');
+    margin: 5px;
     padding: auto;
-}
-
-.WhatsApp{
-    height: 40;
-    width: 40;
 }
