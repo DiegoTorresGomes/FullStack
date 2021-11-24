@@ -1,0 +1,43 @@
+o display block é um bloco e ele normalmente vai do início ao fim da página e quando vc termina 
+um elemento que é display block o proximo conteudo vai para a proxima linha, ele não continua na mesma linha.
+
+o parágrafo é um display block
+
+o inline está na mesma linha, que é o caso do span.
+
+caractetiscas:
+no display block conseguimos colocar uma largura e altura específica
+
+Não podemos ter uma DIV dentro de um parágrafo e nem
+podemos utilizar um elemento do tipo Block dentro de um parágrafo
+
+Temos a opção do display: inline-block que permite que eu altere a largura e a altura.
+
+A opção display: none; apaga a imagem da tela, é como se ela nunca tivesse aparecido na tela.
+
+visibility: hidden; ele separa o espaço do elemento, mas não mostra ele na tela.
+
+overflow = serve para controlar quando os elementos estão saindo da DIV, assim não teremos elementos passando da DIV.
+overflow: visible ele vai mostrar todo conteudo independente se esta passando da DIV (ja vem setado assim.)
+overflow: hidden vai escoder o elemento impossibilitando de ver o elemento.
+overflow: scroll coloca uma barra de rolagem em toda a div, oq pode não ser interessante, pois se não tiver
+necessidade para rolagem para o lado ele vai colocar mesmo assim.
+overflow: auto, ele coloca as barras de rolagem somente onde é necessário.
+
+overflow-y ou x: vamos difinir qual dos lados queremos o scroll
+
+podemos fazer isso inclusive com imagens.
+
+
+Uma das maneiras de fazer a centralização de um elemento horizontaglmente é usando margin
+margin é o afastamento dos lados
+margin-left = ele vai jogar o elemento para a esquerda
+para centralizar o elemento, podemos colocar o margin: auto, ele vai ficar equilibrado em ambos os lados.
+
+se a imagem estiver separada da DIV, não conseguimosmodificar o posicionamento dela tão facilmente, para isso, antes de 
+qualquer coisa, precisamos mudar o display dela.
+display: block deixa eu mover a imagem pra onde eu quiser.
+
+mas seu eu precisar que meu elemento seja display:inline-block ? = não vamos conseguir movimentar a ele, a não ser que
+coloquemos ele em uma DIV (criando uma classe qualquer) chamando essa classe separada e colocando o comando  text-align: center, assim vamos
+ter nossa imagem com movimento.
