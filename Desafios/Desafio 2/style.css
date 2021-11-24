@@ -1,5 +1,3 @@
-body{
-}
 
 .card{
     width: 400px;
@@ -13,8 +11,12 @@ body{
     border: 3px solid black;
 }
 h1{
-    color: rgba(8, 69, 246, 0.8);
-    text-shadow: -2px -2px 0px beige;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(8, 100, 300, 0.8);
+    text-shadow: -1px -1px 0px green, 
+                     -1px 1px 0px green, 
+                      1px -1px 0px blue, 
+                      1px 0px 0px blue;
 }
 
 a{
