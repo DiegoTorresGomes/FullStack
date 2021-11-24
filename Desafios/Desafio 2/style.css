@@ -1,5 +1,4 @@
 body{
-    background-color: black;
 }
 
 .card{
@@ -7,15 +6,21 @@ body{
     height: 200px;
     box-sizing: border-box;
     padding: 1px 20px;
-    background: url('./background.png') no-repeat;
+    background: url('./background3.3.jpg') no-repeat;
     background-size: cover;
     margin: auto;
     margin-top: 10%;
+    border: 3px solid black;
+}
+h1{
+    color: rgba(8, 69, 246, 0.8);
+    text-shadow: -2px -2px 0px beige;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgba(8, 69, 246, 0.8);
+    text-shadow: -1px -1px 0px beige;
 }
 
 .github{
