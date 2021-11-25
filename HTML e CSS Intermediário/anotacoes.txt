@@ -41,3 +41,19 @@ display: block deixa eu mover a imagem pra onde eu quiser.
 mas seu eu precisar que meu elemento seja display:inline-block ? = não vamos conseguir movimentar a ele, a não ser que
 coloquemos ele em uma DIV (criando uma classe qualquer) chamando essa classe separada e colocando o comando  text-align: center, assim vamos
 ter nossa imagem com movimento.
+
+É possível criar uma DIV com duas classes, como no exemplo do INDEX4, denominando assim cada uma delas no style.css 
+No exemplo INDEX4 podemos ver que quando criamos uma DIV não precisamos denominar para ela ficar uma em cima da outra
+ela já fica assim normalmente, pois a DIV É SETADA para ficar em blocos. Porém, se setarmos no CSS a classe quadrado para display: inline-Block, eles
+passam a ficar um do lado do outro.
+
+Numa DIV se setarmos ela como display:inline-block e colocando uma ao lado da outra, vão gerar espaços, pois quando isso acontece, qualquer espacinho
+ela vai enter e vai executar, para isso, precisamos juntar as divs em html.
+
+Tipos de possibilidades de posicionamento:
+
+static é o padrão, ele vai fazer com que todo elemento se encaixe embaixo do outro elemento se for um display:block ou do lado do outro elemento se for
+um display:inline ou display:inline-block
+quando colocamos o position: relative, podemos usar diversas outras propriedades, como por exemplo o:
+left: 20px ele vai direcionar para a esquerda.
+quando temos o position: relative, vamos alterar o posicionamento apenas do elemento que estamos trabalhando.
