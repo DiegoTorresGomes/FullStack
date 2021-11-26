@@ -57,3 +57,10 @@ um display:inline ou display:inline-block
 quando colocamos o position: relative, podemos usar diversas outras propriedades, como por exemplo o:
 left: 20px ele vai direcionar para a esquerda.
 quando temos o position: relative, vamos alterar o posicionamento apenas do elemento que estamos trabalhando.
+
+para mudar o posicionamento de algum elemento dentro de css, mudamos o posicionamento absoluto dele, sem afetar os demais elementos
+
+quando mudamos o quadrado azul para position: absolute, o quadrado verde some, pq o quadrado verde ocupa o ludar do quadrado azul, isso ocorre
+por que quando mudamos para position:absolute, ele entende que o elemento azul não está mais lá ocupando a posição que estava.
+
+o position:absolute é relativo ao pai, desde que o pai não tenha um posicionamento estático

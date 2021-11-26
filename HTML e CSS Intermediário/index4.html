@@ -12,13 +12,15 @@
         }
 
         .quadrado-red{
+            position: absolute;
+            right: 0; /* zerando ele fica relativo ao pai */
             background-color: red;
         }
 
         .quadrado-blue{ /* para fazer este elemento colar no canto inferior direito, precisamos considerar a posição 
             inicial que é 100px + altura inicial que é 100px - a altura total do quadro que é 400px */
             position: relative;
-            left: 400px;
+            left: 300px;
             top: 200px;
             background-color: blue;
         }
@@ -28,7 +30,9 @@
         }
 
         .quadro{
-            width: 500px;
+            position: relative; /* com este comando estou fazendo com que este elemento seja o pai do elemento
+            quadrado vermelho, tornando ele relativo a este. */
+            width: 400px;
             height: 400px;
             border: 1px solid gray;
         }
