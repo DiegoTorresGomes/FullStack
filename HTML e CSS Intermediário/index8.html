@@ -11,6 +11,40 @@
             font-size: 1.2rem;
         }
 
+        .card{
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .c1{
+            background-color: red;
+            line-height: 200px;
+        }
+
+        .c2{
+            color: white;
+            background-color: blue;
+            top: 50%; /* 50% do conteudo de fato */
+            left: 50%;
+            position: absolute;
+
+            transform: translate(-50%, -50%); /* primeiro valor de x e o segundo valor de y */
+        }
+
+        .card2{
+            /*clear: left;*/
+            float: left;
+            border: 2px solid green;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
 
     </style>
 
@@ -18,9 +52,23 @@
 </head>
 <body>
 
+    <div class="card">
+        <div class="c1">
+            Diego Torres
+        </div>
+    </div>
 
+    <div class="card">
+        <div class="c2">
+            Diego Torres
+        </div>
+    </div>
 
-
+    <div class="card2">
+        <div style="background-color: red;">
+            Diego Torres
+        </div>
+    </div>
 
 </body>
 </html>
