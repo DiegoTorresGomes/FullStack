@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .quadrado{
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red{
+            background-color: red;
+        }
+
+        .quadrado-blue{ /* o fixed é muito parecido com o absoluto, porém se mudarmos ele de posição ele não fica relativo
+            ao pai, que seria a caixa branca. Ou seja, se utilizamos o fixed, ele fica relativo a view port (oq conseguimos ver da nossa tela)
+            O posicionamento fixo, mantem ele fixo na tela, mesmo se possuirmos uma barra de rolagem e rolarmos toda para baixo, ele vai continuar lá
+            a ideia do elemento fixo é facilitar a interação do usuário quando ele precisar.*/
+            position: fixed;
+            left: 300px;
+            background-color: blue;
+        }
+
+        .quadrado-green{
+            background-color: green;
+        }
+
+        .quadro{
+            width: 400px;
+            height: 4000px;
+            border: 1px solid gray;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+
+    </div>
+
+
+
+</body>
+</html>
