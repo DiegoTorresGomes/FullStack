@@ -11,12 +11,18 @@
             height: 100px;
         }
 
-        .quadrado-red{
+        .quadrado-red{ /* ele se comporta como o fixed, a diferença é que os outros posicionamentos é como se
+            o elemento não existisse, no sticky ele se mostra existente para os demais, porem some quando rolamos a barra*/
+            position: sticky;
+            top: 0;
+            width: 100%;
             background-color: red;
         }
 
-        .quadrado-blue{ /* */
-            position: sticky;
+        .quadrado-blue{ /* o posicionamento sticky é um tipo de posicionamento grudento
+            ele fica fixo e os elementos passam por trás deles, usado muito para mostrar uma oferta fixa
+            geralmente é colocado no topo */
+            top: 0px;
             background-color: blue;
         }
 
@@ -25,17 +31,19 @@
         }
 
         .quadro{
-            width: 400px;
-            height: 400px;
+            width: 500px;
+            height: 4000px;
             border: 1px solid gray;
         }
 
     </style>
 </head>
 <body>
-    
+
+    <div class="quadrado quadrado-red"></div>
+
     <div class="quadro">
-        <div class="quadrado quadrado-red"></div>
+      
         <div class="quadrado quadrado-blue"></div>
         <div class="quadrado quadrado-green"></div>
 
