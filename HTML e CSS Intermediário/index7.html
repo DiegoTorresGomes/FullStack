@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Segunda Página</title>
+    
+    <style type="text/css">
+        body{
+            font-size: 1.2rem;
+        }
+
+      #i1{
+          float: left; /* isso quer dize q a imagem vai ficar flutuando do lado esquerdo do
+          elemento, e o texto vai ficar no posicionamento correto  */ 
+          /* se tivermos um float left ou right vamos ter um elemento do lado do outro, muito interessante para
+          a crição de menus */
+      }
+
+      li{
+          float: left;/* se tivermos um float left vamos ter um elemento do lado do outro, muito interessante para
+          a crição de menus */
+          list-style: none;
+          padding: 10px;
+          background-color: #a3b5c7;
+          margin: 5px;
+      }
+       #i2{
+           float: right;
+       }
+
+       p{
+           clear: right; /* clear é para definir que não queremos nenhum objeto flutuando onde 
+           dissermos. O clear both define para ambos os lados*/
+       }
+
+       div{
+           border: 1px solid black;
+           padding: 10px;
+           background-color: #b2c3a6;
+           overflow: auto; /* vai dizer para a nossa div que ele quer que todos os elementos
+           inclusive o que está flutuando seja do tamanho da nossa div e precisam estar dentro dela */
+       }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+    <div>
+
+    <img id="i1" src="../Assets/jeep.jpg" alt="Jeep" style="width: 100px;">
+    <img id="i2"src="../Assets/jeep.jpg" alt="Jeep" style="width: 100px;">
+
+    <p>
+        Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer
+        Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer
+        Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer
+        Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer
+        Texto qualquer      Texto qualquer      Texto qualquer      Texto qualquer
+    </p>
+    <!-- Por o paragrafo ser do tipo block, quando colocamos ele e  fica embaixo da imagem
+    uma forma de resolver é mudando o display dele para inline, porém ainda sim fica um espaço
+    muito grande, mas há uma forma de resolver usando o float-->
+
+    </div>
+
+    <ul>
+        <li>Home</li>
+        <li>Cursos</li>
+        <li>Contato</li>
+    </ul>
+
+
+
+</body>
+</html>
