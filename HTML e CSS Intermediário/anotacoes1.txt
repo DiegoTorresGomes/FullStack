@@ -1,0 +1,25 @@
+Para criar um formulário, precisamos abrir a tag form, que a tag que vai levar as nossas informações para o back-end
+
+Dentro de form estarão todos os campos que nós iremos utilizar.
+Então quando clicamos em enviar ou apertamos o enter, todos os campos que estão dentro do formulário são enviados para o back-end.
+
+para começar, precisamos de duas coisas:
+qual é o metodo de envio (method) ele pode ser get ou post
+
+e precisamos dizer qual é a action - A action é o seguinte, quando criamos um webservice ou API ou quando temos alguma coisa rodando
+no servidor que está esperando estes dados para executar alguma coisa, nós vamos ter o end point, o end point é esse endereço que vamos utilizar
+para criar uma requisição.
+
+se a minha página na internet, ou seja, o meu front end estiver rodando no mesmo endereço que no meu webservice eu não preciso colocar o http// no meu action
+eu só preciso colocar / e o final do end point.
+
+ou seja, se eu preciso enviar estes dados e eles estão em outro domínio, ou seja em outro site, eu preciso colocar o http e o endereço.
+
+quando utilizamos o metodo get os dados que colocamos em nosso formulário eles são enviados pelo nosso endereço, isso é ruim
+pq quando criamos um campo de login, onde o usuário precisa colocar usuário e senha, estes dados aparecerão na barra do navegador.
+Para isso não acontecer, usamos o metodo POST.
+
+
+
+
+

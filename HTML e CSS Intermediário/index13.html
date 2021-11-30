@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo HTML Intermediário formulário</title>
+</head>
+<body>
+     
+    <form method="get" action=""> <!--quando não colocamos nada ele ronda na própria tela-->
+
+        <input type="text" name="search_query"> <br>
+        <input type="password" name="senha"> <br> <!--serve para que, quando formos digitar alguma coisa, 
+            ela não apareça na tela, muito usado em senhas muito cuidado ao usar o este com o método get-->
+        <input type="checkbox" name="curso" value="react native"> React Native <br> <!--cria uma caixa de seleção -->
+        <input type="checkbox" name="curso" value="react js"> React Js <br> <!--para identificar qual tipo de curso estamos selecionando
+        ou identificar o valor que estamos marcando nas checkbox precisamos colocar o campo value como exemplo -->
+        
+        <input type="radio" name="gender" value="M">MASC<br> <!--EM rário, podemos manter o mesmo nome pois assim
+        ele vai me permitir marcar somente uma opção-->
+        <input type="radio" name="gender" value="F" checked>FEM<br><!--se eu colocar o atributo checked
+        ele vai manter esta opção marcada até eu mudar se for o caso -->
+        
+        <input type="reset" value="Limpar"> <!--ele vai ser para resetar o meu formulário, ele vai limpar oq foi preenchido, caso os valores
+        estejam errados e se eu só colocar o value com um nome, ele vai ser o nome do botão-->
+        
+        <input type="submit">
+
+
+
+    </form>
