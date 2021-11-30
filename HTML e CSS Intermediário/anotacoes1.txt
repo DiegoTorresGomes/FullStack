@@ -19,6 +19,12 @@ quando utilizamos o metodo get os dados que colocamos em nosso formulário eles 
 pq quando criamos um campo de login, onde o usuário precisa colocar usuário e senha, estes dados aparecerão na barra do navegador.
 Para isso não acontecer, usamos o metodo POST.
 
+textarea é muito importante para criar formulários de contato.
+
+sempre que eu não colocar um name, para os elementos que eu estiver utilizando, ele não vai enviar, podendo causar um erro.
+eu sempre preciso lembrar de colocar o name
+
+
 
 
 
