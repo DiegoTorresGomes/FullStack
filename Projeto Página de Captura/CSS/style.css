@@ -20,6 +20,55 @@ header{
 .title{
     font-size: 26px;
 }
- section{
-     color: white;
+ section{ /* se eu colocar a imagem ela será coberta pelo background, por que estamos usando o float no nosso formContainer */
+    padding: 20px;
+    background-image: url(../images/people.jpg);
+    background-size: cover; /* ou seja o tamnaho da imagem será do tamanho exato para cobrir a DIV */
+    overflow: hidden; /* para resolver o problema da imagem de background não aparecer, precisaos usar o overflow - ele vai fazer com oq nossa imagem
+    preencha tudo que ela tem que preencher */
+
  }
+
+.formContainer{
+    max-width: 230px; /* vai limitar o width */
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+    
+}
+h2{
+    font-size: 16px;
+}
+
+.mb{ /* criou uma classe chamda de margin Bottom e para alterar os dois, 
+    pq a distancia é a mesma colocou em h2 e p */
+    margin-bottom: 15px;
+}
+
+input, select{ /* como a alteração é a mesma para ambos, dá para fazer desta forma */
+    width: 100%;
+    box-sizing: border-box; /* para manter todas as caixas do mesmo tamanho */
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{ /* esta linha foi criada para modificar só os inputs que possuem o submit */
+    color: white;
+    background-color: #39B6DB;
+    font-weight: bold; /* este estilo é para deixar o peso da fonte escuro, ou seja, negrito */
+
+}
+
+select{
+    -moz-appearance: none; /* tanto esta linha quanto a de baixo, vai mudar a aparencia em todos os navegadores */
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center; /* esta linha vai substitur as duas de baixo */
+
+    /*background-position-x: calc(100% - 10px);
+    background-position-y: center;*/
+}
