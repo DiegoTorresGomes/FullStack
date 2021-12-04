@@ -74,14 +74,17 @@ select{
 }
 
 footer{
-    
+    background-color: #202121;
+    padding: 40px; /* este padding vai afastar a minha imagem da imagem de cima */
+    text-align: center;
 }
 .picture{
-    width: 160px;
+    width: 180px;
 }
 
 .description{
     display: inline-block;
+    text-align: left;
     color: white;
     max-width: 40%;
     margin-left: 40px; /* dando o espaço entre a foto e o texto ao lado dela */
@@ -89,4 +92,9 @@ footer{
 .description p, .description h3{ /* seleciona somente estes elementos que estão dentro desta classe, ou seja, vai chamar somente o p e o h3
     que estão dentro de description */
     margin-bottom: 20px;
+    
+}
+
+.description h3{ /* vai garantir que só o h3 da description seja alterado */
+    font-size: 24px;
 }
