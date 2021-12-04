@@ -72,3 +72,21 @@ select{
     /*background-position-x: calc(100% - 10px);
     background-position-y: center;*/
 }
+
+footer{
+    
+}
+.picture{
+    width: 160px;
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px; /* dando o espaço entre a foto e o texto ao lado dela */
+}
+.description p, .description h3{ /* seleciona somente estes elementos que estão dentro desta classe, ou seja, vai chamar somente o p e o h3
+    que estão dentro de description */
+    margin-bottom: 20px;
+}
