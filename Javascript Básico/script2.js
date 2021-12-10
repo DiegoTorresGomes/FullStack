@@ -1,5 +1,12 @@
-let a = "Esta é a variavel a"
+//boolean
+//null
+//undefined
+//number
+//string
 
-var a = "ESTA É A VARIAVEL A GLOBAL"
 
-console.log(a)
+var a = 1;
+var b = "1";
+
+console.log(a);
+console.log(b);
