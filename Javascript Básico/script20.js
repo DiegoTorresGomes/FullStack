@@ -24,6 +24,7 @@ console.log(aluno["notas"][1]); //segundo jeito de chamar um array dentro de um 
 
 */
 
+/*
 var aluno = { 
     nome: "João",
     notas: [7.5, 5.0]
@@ -38,5 +39,27 @@ aluno.matricula = 12345; //esta é uma forma de incluir elementos dentro do obje
 aluno[novaProp] = "Oliveira"; //desta forma é possivel criar uma variável e ao inves de escrever como acima, sobrenome, só precisamos passar o nome da variável
 
 console.log(aluno);
+*/
 
+/*
+//assim como o array, também conseguimos criar um novo objeto
 
+var aluno = new Object (); //é possível colocar dentro do parentese colocando o par chave {}.
+
+aluno.nome = "Igor";
+aluno.notas = [8, 9];
+
+console.log(aluno)
+*/
+
+var aluno = { 
+    nome: "João",
+    notas: [7.5, 5.0]
+};
+
+var aluno2 = { 
+    nome: "Jose",
+    notas: [7.5, 5.0]
+}
+
+console.log(aluno, aluno2);
