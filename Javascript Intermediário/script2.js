@@ -1,0 +1,3 @@
+//DOCUMENT
+
+console.log(document)
