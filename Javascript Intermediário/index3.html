@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Parte 1 DOM EVENTS</title>
+
+    <script>
+        function onOver(elemento){
+
+            elemento.style.backgroundColor = "red"
+        }
+
+        function onOut(elemento){
+
+            elemento.style.backgroundColor = "cornflowerblue"
+        }
+
+
+    </script>
+
+
+
+
+    <style>
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+
+
+        div {
+            display: inline-block;
+            padding: 20px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+    </style>
+
+
+
+
+
+</head>
+   
+<body onload="console.log('Página completamente carregada')">
+
+    <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg">
+    <br>
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+    <p onmouseover="onOver(this)" onmouseout="onOut(this)">Texto para texte</p>
+
+    
+</body>
+</html>
