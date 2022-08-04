@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html id="01">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo título</title>
+
+    <script>
+
+        /*
+        function loaded() {
+            
+            let t = document.getElementById("titulo")
+
+            t.innerHTML = "rrr";
+
+        }
+        */
+
+        function loaded() {
+            
+            let t = document.getElementById("titulo")
+
+           // t.onclick = mudarText; //se eu colocar parentese aqui ele 
+            //executa a função na hora e não é este objetivo neste momento
+
+           // t.addEventListener(/*"click"*/"mouseouver", mudarText);
+
+            t.addEventListener("mouseover", mudarText);
+            t.addEventListener("mouseout", mouseout)
+
+
+        }
+
+        function mudarText () {
+            this.innerHTML = "Mouse no Elemento";
+        }
+
+        function mouseout () {
+            this.innerHTML = "Mouse fora do elemento";
+        }
+
+    </script>
+
+
+</head>
+
+<body onload="loaded ()">
+
+    <h1 id="titulo">Teste</h1>
+    
+
+</body>
+</html>
