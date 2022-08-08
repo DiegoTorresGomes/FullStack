@@ -1,0 +1,9 @@
+Dados para o projeto
+
+Carne - 400gr por pessoa + de 6 horas - se o evento levar mais de 6 horas o consumo aumenta para 650g por pessoa
+
+Cerveja - 1200ml por pessoa + 6 horas - se o evento levar mais de 6 horas o consumo aumenta para 2000 por pessoa
+
+Refrigerante / agua - 1000ml por pessoa + 6 horas - se o evento levar mais de 6 horas o consumo aumenta para 1500ml por pessoa
+
+crianças valem por 0,5
