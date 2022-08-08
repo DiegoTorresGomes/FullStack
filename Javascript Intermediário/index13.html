@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPORIZADOR</title>
+
+    <script>
+        /*
+        function mudarCor () {
+            let h = document.getElementsByTagName("h1")[0];
+            h.style.color = "blue";
+        }
+
+
+        function mudarTexto() {
+            let h = document.getElementsByTagName("h1")[0];
+            h.innerHTML = "Novo Título";
+
+            setTimeout (mudarCor, 1000)
+            //setTimeout vai receber dois argumentos, o primeiro é o que eu quero fazer, normalmente uma função.
+            //o segundo argumento é o tempo de delay, se eu quero um delay de 1 segundo eu coloco 1000 milissegundos
+        }
+        */
+
+        var numero = 0;
+
+        var interval;
+
+        function atualizarTexto () {
+            let h = document.getElementsByTagName("h1")[0];
+            h.innerHTML += " " + numero;
+            numero++;
+
+
+        }
+
+        function inicar() {
+           interval = setInterval(atualizarTexto, 1000);
+        }
+
+        function parar() {
+           clearInterval(interval);
+
+        }
+
+        function limpar() {
+           document.location.reload(false); //acrescentei o comando para atualizar a página e apagar os dados.
+        }
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+    
+    <h1>Título</h1>
+    <!--<input onclick="mudarTexto()" type="submit" value="Mudar">-->
+    <input onclick="inicar()" type="submit" value="inicar">
+    <input onclick="parar()" type="submit" value="parar">
+    <input onclick="limpar()" type="submit" value="Limpar">
+    
+
+</body>
+</html>

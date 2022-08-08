@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação com eventos</title>
+
+    <style>
+
+
+    </style>
+
+
+    <script>
+        function f() {
+            console.log("Teste")
+            //console.log(this)
+        }
+
+        function f1 () {
+            console.log("teste f1")
+            //console.log(this)
+        }
+
+        window.onload = function () {
+            let h1  = document.getElementsByTagName ("h1") [0];
+
+            h1.addEventListener("click", f1 /*se eu colocar o f1 com parentese ele já vai executar direto a função, neste caso como não quero que isso aconteça, eu só faço a referencia e tiro os parenteses  */) 
+            //click quando estamos criando um evento pelo script e onClick quando estamos criando pelo HTML
+        }
+        
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <h1 onclick="f()"> Title</h1>
+    
+</body>
+</html>

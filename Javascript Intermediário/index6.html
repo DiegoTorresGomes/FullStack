@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parentese de uma função</title>
+
+    <script>
+
+        function ret3 () { //se no console, mandarmos imprimir ret3 () ela vai executar e imprimir 3 e retornar 5
+            console.log(3);
+            return 5;
+        }
+
+        let ret5 = ret3(); //executando esta linha no console, ele vai retornar 5, pois vai retornar o resultado da execução da função
+
+
+        // se digitarmos no console simplesmente ret3 sem parentese, ele vai retornar a função inteira.
+        //quando utilizamos os parenteses estamos executando a função naquele momento
+        //quando utilizamos sem os parenteses, estamos colocando aquela função dentro de uma variável ou dentro de uma propriedade de algum objeto
+
+
+    </script>
+
+
+
+
+</head>
+
+
+<body>
+
+    <h1 onclick="ret3()">Clique em mim</h1>
+    <!-- quando colocamos a função dentro do html que queremos fazer referencia dela
+        precisamos colocar os parenteses, pois é necessário-->
+    
+
+
+
+</body>
+</html>

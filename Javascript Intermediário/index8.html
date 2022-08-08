@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Pais e Filhos</title>
+
+    <style>
+
+
+    </style>
+
+
+    <script>
+       
+        window.onload = function () {
+
+            let d1 = document.getElementById("d1");
+            let h1 = d1.children[0]
+            console.log(h1.parentElement) //usando .parentElement conseguimos pegar o pai dele
+        }
+        
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <div id="d1">
+        <h1>Título</h1>
+        <p>Qualquer Texto</p>
+    </div>
+
+    <div id="d2">
+        <h1>Título 2</h1>
+        <p>Qualquer Texto 2</p>
+    </div>
+
+
+    
+</body>
+</html>
