@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+   
+
+    <style>
+        .container {
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+
+        .video{
+            width: 100%; /* aqui o vídeo tem 100% da largura do pai, e neste caso o pai dele é o container */
+        }
+
+        .controle{
+            position: absolute; /* aqui é absoluto em relação ao container que é relativo*/
+            top: 0; /* aqui é a distancia do topo */
+            width: 100%;
+            height: 100%;
+            /*background-color: red;*/
+            text-align: center;
+        }
+
+        .btn{
+            position: relative;
+            width: 60px;
+            padding: 10px;
+            top: 100%;
+            transform: translateY(-180%);
+        
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <video id="video" class="video" src="./Imagens/Criando QRCODE.mp4"></video>
+
+        <div class="controle">
+
+            <img class="btn" onclick="aumentar_vel()" src="./Imagens/aumentar.png">
+            <img class="btn" onclick="diminuir_vel()" src="./Imagens/diminuir.png">
+            <img class="btn" onclick="retroceder()" src="./Imagens/retroceder.png">
+            <img class="btn" onclick="acelerar()" src="./Imagens/acelerar.png">
+            <img class="btn" onclick="play()" src="./Imagens/play.png">
+            <img class="btn" onclick="stop()" src="./Imagens/stop.png">
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="./script1.js"></script>
+</body>
+</html>
