@@ -1,0 +1,36 @@
+/* SELETORES */
+
+/*TEMOS USADO
+.NOME DA CLASS
+#NOME DO ID
+OU A PRÓPRIA TAG, COMO DIV, P.
+MAS SE UTILIZARMOS A PRÓPRIA TAG ELE VAI SELECIONAR TODOS OS ELEMENTOS DAQUELA TAG
+*/
+
+/*
+TEMOS O SELETOR QUE É O 
+ * (ASTERISCO){ UTILIZANDO ESTE, TEREMOS TODOS OS ELEMENTOS DA NOSSA PÁGINA SELECIONADOS, POIS ELE É O QUE IDENTIFICA
+    O BODY DA PÁGINA
+ }
+
+PODEMOS COLOCAR SEPARADOS POR VÍGULA, CONFORME ABAIXO
+
+div, p, header{ e assim eu escolho somente estes seletores para fazer alteração
+}
+
+div p{ sem a vígula, conseguimos usar também, mas de uma forma diferente.
+    todos os paragrafos, elementos p, dentro da div, vão ser mudados.
+}
+
+head > p{ Neste seletor, maior q, vamos pegar todos os elementos p, cujo o pai é o head
+{
+
+#head + p { o mais ele pega o elemento p que esta logo após o head
+}
+
+
+*/
+
+#head > p {
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+P::first-line{ /* MANTEM APENAS A PRIMEIRA LINHA EM VERMELHO DE UM TEXTO EM VERMELHO */
+    color: red;
+
+}
+
+
+P::first-letter{ /* MANTEM APENAS A PRIMEIRA LETRA DO ELEMENTO NA COR QUE SELECIONAR */
+    color: blue;
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 5rem;
+}
+
+li{
+    list-style: none;
+}
+li::before{
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./Assets/Google__G__Logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* vai cobrir toda a área que neste caso é 30px */
+}
+
+p::selection{
+    background-color: yellow;
+    color: orangered;
+}
