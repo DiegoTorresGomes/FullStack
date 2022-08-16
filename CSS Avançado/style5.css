@@ -1,0 +1,14 @@
+/*img{
+    width: 420px;
+    /*transform: rotate(-45Deg); /*Deg = graus*/
+    /*transform: scale(1); /* a escala vai aumentar o tamanho da imagem */
+    /*transform: scale(2, 1); /*x=2 para vertical, e y=1 para horizontal */
+    /*transform: skew(40deg); /* a imagem deu uma escorregada *//*
+}*/
+
+div{
+    width: 420px;
+    height: 300px;
+    /*transform: skew(30deg, 30deg) scale(0.7, 1);*/
+    background-color: red;
+}
