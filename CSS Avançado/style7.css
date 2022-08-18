@@ -3,7 +3,26 @@
     /*flex-direction: row; /* toda a linha será preenchida na vertical e na horizontal só o necessário */
     /*flex-direction: column; /* é o contrário do de cima, tenta preencher toda a coluna */
     /*flex-direction: column-reverse; /* coluna invertida, começando de baixo para cima */
-    flex-direction: row-reverse; /* mesmo conceito de cima */
+    /*flex-direction: row-reverse; /* mesmo conceito de cima */
+    
+    /*flex-wrap: wrap; /* se diminuir a tela, ele vai ajudar uma das linhas para baixo e pode vazar do elemento pai, que neste caso é o cinza */
+    /*flex-wrap: wrap-reverse; /* ao contrário do de cima */
+
+    /*flex-flow: column wrap; /* ele junta os dois comandos flex-direction e flex-wrap */
+    
+    /*justify-content: flex-end; /* inverte a linha, mantendo o 1 sempre na frente, sem enconstar nas margens */
+    /*justify-content: center; /* centraliza todos os elementos */
+    /*justify-content: space-between; /* ele separa os elementos e eu consigo ter cada um e uma ponta (melhor visualização tirando o 3) */
+    /*justify-content: space-around; /* ele tenta manter o espaço em volta de cada elemento igual para cada */
+    /*justify-content: space-evenly; /* ele vai manter o espaço sempre igual */
+    
+    /*align-items: center; /* ele vai alinhar todos os elementos no centro, se eu usar o justify-content:center, os elementos vão ficar no meio do pai */
+    /*align-items: stretch; /* vai preencher só o necessário */
+    
+    /* vai alinhar as linhas com relação ao container */
+    /*align-content: center; /* ele centraliza as linhas */
+    /*align-content: flex-start; /* ele não deixa o espaço caso o tamanho diminua */
+    
 
     background-color: darkgrey;
     height: 400px;
@@ -11,19 +30,33 @@
 }
 
 .r1{
+
+
     background-color: red;
 }
 
 .r2{
+    /* order vai mudar a ordem dos elementos sem mexer no HTML */
+    /*order: 1; /* por padrão a ordem é zero, eu colocando o 1 ele vai jogar o 3 para frente */
+    /*order: -1; /* vai jogar o 2 para o ligar do 1 */
     background-color: blue;
+
+    /*align-self: flex-end; /* vai mudar só o elemento 2 de posição, jogando ele para o final */
+    align-self: center; /* vai centralizar somente o elemento 2 */
+
+
 }
 
 .r3{
+    /*flex-shrink: 0; /* esta é uma propriedade que diz se este elemento pode ou não encolher, zero para não pode encolher e um para pode */
     background-color: green;
+    /*flex-grow: 0;/* esta é uma propriedade que diz se este elemento pode ou não aumentar, zero para não pode aumentar e um para pode */
+    /*flex-grow: 2; /* ele vai dobrar o tamanho do elemento e vai manter sempre o padrão deste tamanho */
+
 }
 
 .rect{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 
 }
