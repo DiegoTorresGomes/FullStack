@@ -1,0 +1,29 @@
+.container{
+    display: flex; /* vai fazer com que tentem preencher toda a parte disponível pelo elemento pai*/
+    /*flex-direction: row; /* toda a linha será preenchida na vertical e na horizontal só o necessário */
+    /*flex-direction: column; /* é o contrário do de cima, tenta preencher toda a coluna */
+    /*flex-direction: column-reverse; /* coluna invertida, começando de baixo para cima */
+    flex-direction: row-reverse; /* mesmo conceito de cima */
+
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+
+}
