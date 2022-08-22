@@ -1,0 +1,50 @@
+
+
+.container{
+    /*height: 500px;*/
+    color: white;
+    display: grid;
+    background-color: gray;
+
+    padding: 10px;
+
+    /*grid-template-rows: 200px 100px; /*aqui eu defino o número de linhas, cada valor que colocamos significa o número de linhas*/
+    /*grid-template-columns: 1fr 2fr 1fr; /* aqui eu defino o número de colunas, cada valor que colocamos significa o número de colunas*/
+    /*grid-template: auto auto / auto auto auto; /* funciona como o de cima, rows e columns, nesta ordem, primeiro insiro os valores de linhas depois de colunas */
+
+    /*justify-items: center; /* justify e align vão alinhar os elementos em relação ao espaço da grid */
+    /*align-items: center; /* justify-items e align-items vão alinhar os elementos em relação ao espaço da grid */
+
+    /*justify-content: space-evenly; /* justify-content e align-content vão alinhar a grid em relação ao espaço do container / aqui estou fazendo na horizontal */
+    /*align-content: flex-start; /* justify-content e align-content vão alinhar a grid em relação ao espaço do container / aqui estou fazendo na vertical */
+
+
+    /*grid-row-gap: 10px; /* aqui dá o espaçaento das linhas para separa uma div da outra */
+    /*grid-column-gap: 10px; /* aqui dá o espaçaento das colunas para separa uma div da outra */
+    /*grid-gap: 15px; /* aqui dá o espaçaento das linhas e colnas para separa uma div da outra, essa junta o comando das duas de cima */
+
+}
+
+
+
+.r1{
+
+
+    background-color: red;
+}
+
+.r2{
+
+    background-color: blue;
+}
+
+.r3{
+
+    background-color: green;
+}
+
+.rect{
+
+   /*  width: 100px;
+    height: 100px; */
+}
