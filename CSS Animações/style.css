@@ -1,4 +1,4 @@
-@keyframes changeColor {
+ @keyframes changeColor {
 
     /*
     from {background-color: red;}
@@ -17,10 +17,46 @@
 }
 
 
+/* @keyframes move {
+    0% {left: 0px;}
+    100% {left: 300px;}
+} */
+
+
 .box{
     width: 200px;
     height: 200px;
     border-style: solid;
-    animation-name: changeColor;
-    animation-duration: 6s;
+    position: relative;
+    animation: changeColor 3s linear 0s 1 normal forwards; /* esta é uma forma de eu fazer tudo que está comentado abaixo em uma única linha */
+    /*animation-name: move;*/
+    /*animation-name: changeColor;*/
+    /* para ele se movimentar não podemos ter um position static */
+    /*animation-duration: 6s; /* o tempo de execução da animação */
+    /*animation-delay: -3s; /* atrasa o início da animação / podemos colocar o valor negativo também, mas ela vai comer o tempo de início ex: se a animação tem 6s de duração, com -3 ela vai começar já nos 50% */
+    /*animation-iteration-count: 2; /* quantidade de vezes que esta animação vai se repetir / posso colocar o valor como infinito */
+    /*animation-direction: reverse; /* a direção que eu quero que a animação rode se é começar de trás para frente ou alternate, que ela vai alternar oq colocarmos usado em conjunto com o interation-count */
+    /*animation-fill-mode: forwards; /* no modo forwards quando a animação termina ela fica no ultimo frame, ou seja onde ela terminou e no both ele junta o forwards e o backwards */
+
+    
+}
+
+.div1{
+    animation-timing-function: linear;
+}
+
+.div2{
+    animation-timing-function: ease;
+}
+
+.div3{
+    animation-timing-function: ease-in;
+}
+
+.div4{
+    animation-timing-function: ease-out;
+}
+
+.div5{
+    animation-timing-function: ease-in-out;
 }
