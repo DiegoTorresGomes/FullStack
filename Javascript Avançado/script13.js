@@ -4,13 +4,6 @@ let url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
 
 
 
-
-
-
-
-
-
-
  function converter() {
     let input = document.getElementById("valor");
     let valor = input.value;
