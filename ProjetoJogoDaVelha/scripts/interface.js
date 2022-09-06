@@ -23,6 +23,9 @@ function handleClick(event){
 
 }
 
+
+
+
 function updateSquares() {
 
     let squares = document.querySelectorAll(".square");
