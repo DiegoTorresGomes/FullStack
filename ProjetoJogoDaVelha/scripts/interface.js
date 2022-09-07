@@ -18,24 +18,21 @@ function handleClick(event){
     let square = event.target;
     let postion = square.id;
 
-    handleMove(postion);
-    updateSquares();
+    if(handleMove(postion)){
+
+
+        setTimeout(() =>{
+            alert("O jogo Acabou - O Vencedor foi " + playerTime)
+        }, 10);
+        
+    };
+    updateSquare(postion);
 
 }
 
 
-
-
-function updateSquares() {
-
-    let squares = document.querySelectorAll(".square");
-
-    squares.forEach((square) => {
-        let postion = square.id;
-        let symbol = board[postion];
-
-        if(symbol != '') {
-            square.innerHTML = `<div class='${symbol}'></div>`
-        }
-    })
+function updateSquare(postion){
+    let square = document.getElementById(postion.toString());
+    let symbol = board[postion];
+    square.innerHTML = `<div class='${symbol}'></div>`
 }
