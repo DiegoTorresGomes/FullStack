@@ -8,7 +8,7 @@ function startGame() {
     initializeCards(game.createCardsFromTechs());
 }
 
-function initializeCards(cards) {
+function initializeCards(game) {
     let gameBoard = document.getElementById("gameBoard");
 
     game.cards.forEach(card=>{
