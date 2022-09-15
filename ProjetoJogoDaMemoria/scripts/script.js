@@ -4,7 +4,9 @@ const CARD = "card";
 const ICON = "icon";
 
 startGame();
+
 function startGame() {
+    
     initializeCards(game.createCardsFromTechs());
 }
 
@@ -51,6 +53,6 @@ function createCardFace(face, card, element){
 
 
 function flipCard () {
-    
+
     this.classList.add("flip");
 }
